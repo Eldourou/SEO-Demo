@@ -29,3 +29,10 @@ color:white;
 text-align:center;
 padding:10px;
 }
+
+.content-wrapper {
+    display: flex;
+    justify-content: center; /* Οριζόντια συμμετρία */
+    align-items: center;     /* Κάθετη συμμετρία */
+    gap: 20px;               /* Ίση απόσταση μεταξύ τους */
+}
