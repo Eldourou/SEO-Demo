@@ -30,7 +30,7 @@ text-align:center;
 padding:10px;
 }
 
-.content-wrapper {
+.contact-container {
     display: flex;
     justify-content: center; /* Οριζόντια συμμετρία */
     align-items: center;     /* Κάθετη συμμετρία */
