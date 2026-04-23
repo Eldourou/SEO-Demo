@@ -30,9 +30,15 @@ text-align:center;
 padding:10px;
 }
 
-.contact-container {
-    display: flex;
-    justify-content: center; /* Οριζόντια συμμετρία */
-    align-items: center;     /* Κάθετη συμμετρία */
-    gap: 20px;               /* Ίση απόσταση μεταξύ τους */
+.contact-container {      /* Κεντράρισμα της φόρμας */
+    max-width: 400px;
+    margin: auto;
+}
+/* Τα Labels και τα Inputs να μπαίνουν το ένα κάτω από το άλλο */
+.contact-container label, 
+.contact-container input, 
+.contact-container textarea {
+    display: block; /* Αυτό τα βάζει σε νέα γραμμή */
+    width: 100%;    /* Να πιάνουν όλο το πλάτος */
+    margin-bottom: 10px;
 }
